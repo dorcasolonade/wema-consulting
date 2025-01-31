@@ -1,0 +1,45 @@
+.choose_us_card{
+    height: 120px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-top: 40px;
+    padding: 30px 0;
+    border: 1px solid #fafafa;
+}
+
+.choose_us_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    flex-direction: column;
+}
+
+
+.choose_text{
+    width: 600px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.card_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.choose_us_card h2{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+}
+
+.choose_us_card p{
+    text-align: center;
+}
+
+.about_pricing{
+    margin-top: 100px;
+}

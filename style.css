@@ -8,6 +8,12 @@ header{
     margin: 0 80px;
 }
 
+a{
+    text-decoration: none;
+    color: #737373;
+    cursor: pointer;
+}
+
 
 .navigation{
     display: flex;
@@ -153,6 +159,7 @@ header{
 .strategy_text{
     text-align: center;
     font-size: 14px;
+    color: #737373;
 }
 
 .strategy_bg{
@@ -176,6 +183,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 60px;
 }
 
 .clients_header{
@@ -186,15 +194,17 @@ header{
 .clients_text{
     text-align: center;
     font-size: 14px;
+    color: #737373;
 }
 
 .designers_box{
-    border-color: solid gray;
     background-color: white;
     box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    margin-top: 120px;
+    margin-top: 40px;
     border: 1px;
     width: 500px;
+    padding: 30px 0;
+    border: 1px solid #fafafa;
 }
 .designers_image{
     text-align: center;
@@ -217,6 +227,7 @@ header{
 .designers_footer{
     text-align: center;
     font-size: 14px;
+    color: #737373;
 }
 
 .about_section{
@@ -224,6 +235,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0 80px;
 }
 .about_details{
     text-align: center;
@@ -237,8 +249,147 @@ header{
 
 .about_text{
     text-align: center;
+    color: #737373;
 }
 
 .about_image{
-    text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 80px;
+        margin-top: 80px;
+
+}
+
+
+.about_image img{
+    height: 370px;
+}
+
+
+.about_img_text_wrapper{
+    width: 327px;
+}
+
+.image_subheader{
+    font-size: 25px;
+}
+
+.image_paragraph{
+    font-size: 14px;
+    color: #737373;
+}
+
+.image_name{
+    font-size: 14px;
+    color: #737373;
+}
+
+
+.pricing_section{
+    margin-top: 200px;
+}
+.pricing_header{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.pricing_text{
+    font-size: 14px;
+    color: #737373;
+    text-align: center;
+}
+
+.pricing_image {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.consulting_section {
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 12px 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+
+.consulting_btn{
+    background-color: #23A6F0;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+    width: 160px;
+    height: 52px;
+    display: block;
+    font-weight: 600;
+}
+
+.consulting_text{
+    color: #737373;
+}
+
+.information_section{
+    margin: 40px 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.information_section ul{
+    list-style: none;
+    color: #737373;
+}
+
+.information_section h1{
+    margin: 0;
+}
+
+.information_section li{
+    margin: 5px;
+}
+
+.get_text{
+    color: #737373;
+}
+
+.appointment_section{
+    background-image: url("./images/background.jpg");
+    height: 600px;
+    background-position: center;
+    padding: 20px 80px;
+    margin: 90px 0 0px 0;
+}
+
+
+.names_input_container{
+    /* display: flex; */
+    gap: 7px;
+    margin-bottom: 40px;
+}
+
+
+.fullname_input{
+    width: 296px;
+    height: 50px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border:  1px solid #e6e6e6;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.text-area-input{
+    width: 610px;
+    height: 120px;
+    background-color: #f9f9f9;
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        resize: none;
+        margin-bottom: 40px;
 }
